@@ -62,6 +62,7 @@ type sysfs_spi_writeable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_sec_switch_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_touchscreen_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_wifi_writable, sysfs_type, rw_fs_type, fs_type;
+type sysfs_mif, sysfs_type, rw_fs_type, fs_type;
 
 ### VENDOR
 type vendor_firmware_file, file_type, vendor_file_type;

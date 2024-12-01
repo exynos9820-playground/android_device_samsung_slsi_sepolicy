@@ -26,3 +26,6 @@ allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
 
 # /sys/kernel/gpu/gpu_min_freq
 allow hal_power_default sysfs_gpu:file rw_file_perms;
+
+# /devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif/scaling_freq_min
+allow hal_power_default sysfs_mif:file rw_file_perms;
